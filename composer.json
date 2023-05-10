@@ -10,5 +10,10 @@
     },
     "autoload": {
         "psr-4": {"MarsRover\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
     }
 }
