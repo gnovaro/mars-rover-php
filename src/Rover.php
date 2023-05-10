@@ -84,8 +84,3 @@ class Rover {
         }
     }
 }
-
-// Example usage
-$rover = new Rover(100, 100, 'N', [[101, 100], [100, 99]]);
-$result = $rover->executeCommands('FFRRFFFRL');
-echo $result; // Output: Obstacle detected at (100, 99)
